@@ -223,7 +223,7 @@ As you will quickly see, training curves are extremely smooth and stable even in
 |:-------------------------:|:-------------------------:|
 | **Prediction/Invariance loss** | **SIGReg loss** |
 |<img width="500" alt="invariance loss" src="https://i.imgur.com/aCVn2WH.png">   | <img width="500" alt="sigreg loss" src="https://i.imgur.com/fFHp4t2.png">|
-| **LeJEPA (pred $\times (1-\lambda)$ + SIGReg $\times \lambda$ ) loss** | **Online probe loss** 
+| **LeJEPA (pred $\times (1-lamb)$ + SIGReg $\times lamb$ ) loss** | **Online probe loss** 
 |<img width="500" alt="LeJEPA loss" src="https://i.imgur.com/lc8vn37.png">  |<img width="500" alt="online probe loss" src="https://i.imgur.com/ejLcW4o.png">|
 
 And last but not least, the online accuracy (per-epoch) is also very stable--depicted here with relative walltime in the x-axis:
